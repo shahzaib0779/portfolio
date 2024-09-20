@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body{
+    background-color: #B0B7C0;
+}
+h3{
+    background-color: #595E60;
+    text-align: center;
+    font-weight: 600;
+    padding: 1rem 0 1rem 0;
+}
+nav{
+    background-color: #171710;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3%;
+    padding: 0.7rem 5rem 0.7rem 0;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.14rem;
+    transition: all linear 0.3s;
+}
+#About{
+    background-color:#B0B7C0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0 0rem 0;
+}
+#About div{
+    width: 60%;
+    padding: 1rem 0 0 2.6rem;
+}
+#About div p{
+    line-height: 2rem;
+    font-size: 1.1rem;
+    color: black;
+}
+b,h1{
+    color:black;
+}
+h1{
+    font-size: 2rem;
+}
+#shahzaib{
+    margin: 3.9rem 7rem 0 0;
+}
+nav a:hover{
+    font-size: 1.13rem;
+    color:gray ;
+    transition: all linear 0.3s;
+    border-bottom: 0.1rem solid #7EC8E3;
+}
+#intro{
+    background-color: #595E60;
+    padding: 1rem 2.7rem;
+    border: none;
+    border-radius: 1.2rem;
+    margin: 1rem 0 0 1.7rem;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+#talk{
+    background-color:#595e604b;
+    padding: 1rem 2.7rem;
+    border: none;
+    border-radius: 1.2rem;
+    margin: 1rem 0 0 1.2rem;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    color: black;
+}
+#intro:hover, #talk:hover
+{
+    padding: 1.1rem 2.8rem;
+    transition: all linear 0.3s;
+}
+#Education{
+   background-color:#171710;
+   padding: 0 0 3rem 0;
+}
+h2{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1.2rem 0 0 0;
+    transition: all linear 0.4s;
+}
+#outer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.3rem 0 0 0;
+}
+.edu{
+    background-color:#595E60;
+    width: 30%;
+    text-align: center;
+    margin: 1rem 0 0 0;
+    cursor: pointer;
+    transition: all linear 0.4s;
+    width: 26.5%;
+    border-radius: 1rem;
+}
+.heading{
+    background-color:#B0B7C0;
+    color: #171710;
+    font-weight: 800;
+    border-radius: 1rem 1rem 0 0;
+}
+.edu p{
+    margin: 1.4rem 0 3rem 0;
+    padding: 0 1rem ;
+    font-size: 1.06rem;
+
+}
+.edu:hover{
+    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.5);
+    transition: all linear 0.4s;
+    margin-top:1.5rem ;
+}
+h2:hover{
+    cursor: pointer;
+    font-size:1.7rem;
+    transition: all linear 0.4s;
+}
+#ski{
+    margin: 4rem 0 0 0;
+    background-color: #171710;
+}
+#outer-skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #171710;
+    padding-bottom: 2rem;
+}
+.skill{
+    width:23.5%;
+    background-color: #595f61;
+    text-align: center;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    transition: all linear 0.4s;
+}
+.skill-image{
+    width:60px;
+    height: 60px;
+}
+h4{
+    background-color: #B0B7C0;
+    border-radius: 1rem 1rem 0 0;
+    padding: 0.7rem 0 0 0;
+    color:#171710 ;
+    font-weight: 700;
+}
+.skill p{
+    font-size: 0.999rem;
+    padding: 1rem;
+}
+.skill:hover{
+    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.5);
+    transition: all linear 0.4s;
+    margin-top:1.5rem ;
+    cursor: pointer;
+}
+span{
+    padding: 0.2rem 0 0.2rem 0.5rem ;
+    background-color:#595f61 ;
+}
+#contact-div form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 0 0 2rem;
+}
+#contact-div{
+    background-color: #171710;
+    height: 470px;
+}
+label{
+    font-size: 1.4rem;
+}
+input{
+    padding: 0.7rem 0 0.7rem 0;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: #171710;
+    border-bottom: 0.1rem solid #595E60;
+}
+#con{
+    background-color: #171710;
+    margin-top: 3rem;
+}
+textarea{
+    background-color: #171710;
+    border: none;
+    border-bottom: 0.1rem solid #595E60;
+}
+#submit{
+    background-color: #B0B7C0;
+    padding: 1rem 2.7rem;
+    border: none;
+    border-radius: 1.2rem;
+    margin: 1rem 0 0 1.7rem;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+#foot{
+    font-size: 1.3rem;
+    text-align: center;
+  padding: 2rem 4rem 0 4rem;
+}
+#rights{
+    color: black;
+    text-align: center;
+    font-size: 1.1rem;
+}
