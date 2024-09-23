@@ -3,9 +3,13 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
     color: white;
+    overflow-x: hidden;
 }
 body{
     background-color: #B0B7C0;
+}
+html{
+    scroll-behavior: smooth;
 }
 h3{
     background-color: #595E60;
@@ -25,6 +29,7 @@ nav a{
     font-weight: 500;
     font-size: 1.14rem;
     transition: all linear 0.3s;
+    border-bottom: 2px solid transparent;
 }
 #About{
     background-color:#B0B7C0;
@@ -51,11 +56,12 @@ h1{
     margin: 3.9rem 7rem 0 0;
 }
 nav a:hover{
-    font-size: 1.13rem;
-    color:gray ;
-    transition: all linear 0.3s;
-    border-bottom: 0.1rem solid #7EC8E3;
+    color: gray;
+    border-bottom: 2px solid #595E60;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
+
 #intro{
     background-color: #595E60;
     padding: 1rem 2.7rem;
@@ -66,22 +72,24 @@ nav a:hover{
     color: black;
     cursor: pointer;
     transition: all linear 0.3s;
+    box-sizing: border-box;
 }
 #talk{
     background-color:#595e604b;
     padding: 1rem 2.7rem;
     border: none;
     border-radius: 1.2rem;
-    margin: 1rem 0 0 1.2rem;
+    margin: 1rem 0 0 1.7rem;
     cursor: pointer;
     transition: all linear 0.3s;
     color: black;
+    box-sizing: border-box;
 }
-#intro:hover, #talk:hover
-{
-    padding: 1.1rem 2.8rem;
-    transition: all linear 0.3s;
+#intro:hover, #talk:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
+
 #Education{
    background-color:#171710;
    padding: 0 0 3rem 0;
@@ -90,7 +98,8 @@ h2{
     text-align: center;
     font-size: 1.6rem;
     padding: 1.2rem 0 0 0;
-    transition: all linear 0.4s;
+    transition: all linear 0.3s;
+    overflow: hidden;
 }
 #outer{
     display: flex;
@@ -119,14 +128,9 @@ h2{
     font-size: 1.06rem;
 
 }
-.edu:hover{
-    box-shadow: 0 0 2rem rgba(255, 255, 255, 0.5);
-    transition: all linear 0.4s;
-    margin-top:1.5rem ;
-}
 h2:hover{
     cursor: pointer;
-    font-size:1.7rem;
+    transform: scale(1.05);
     transition: all linear 0.4s;
 }
 #ski{
@@ -163,12 +167,12 @@ h4{
     font-size: 0.999rem;
     padding: 1rem;
 }
-.skill:hover{
+.edu:hover, .skill:hover {
+    transform: translateY(-10px);
     box-shadow: 0 0 2rem rgba(255, 255, 255, 0.5);
-    transition: all linear 0.4s;
-    margin-top:1.5rem ;
-    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+
 span{
     padding: 0.2rem 0 0.2rem 0.5rem ;
     background-color:#595f61 ;
